@@ -13,6 +13,15 @@ It prompts for project information during the initializtion process.
 
 ---
 
+## package.json
+
+Scripts can be created in the package.json.
+For example:
+`"scripts": {"start": "node server.js"}`
+allows for the use of the `npm start` command to run the server.js file
+
+---
+
 ## index.js
 
 The index.js file imports the generateRandomNumber and celciusToFahrenheit functions from the utils.js file using CommonJS imports.
