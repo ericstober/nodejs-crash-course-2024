@@ -1,5 +1,7 @@
 # nodejs-crash-course-2024
 
+This is an intro to Node.js with no frameworks or libraries. It looks at core modules including building a server with the http module
+
 ---
 
 ## Initialize Node.js project
@@ -36,3 +38,11 @@ The postController.js file contains a posts array with two post objects to use a
 This file also contains two simple functions to get all of the posts from the post objects array. This function is exported as default using ESModules.
 
 The second function getPostsLength gets the length of the posts array. This function is a regular export using ESModules.
+
+---
+
+## server.js
+
+imports http module that is included in node.js
+
+creates a server using the http module
