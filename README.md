@@ -52,6 +52,6 @@ The second function getPostsLength gets the length of the posts array. This func
 
 ## server.js
 
-imports http module that is included in node.js
-
-creates a server using the http module
+Imports http module that is included in node.js.
+Creates a server using the http module.
+This file handles routes for the index.html and about.html files that are in the public folder.
