@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-crash-course-2024",
+  "version": "1.0.0",
+  "description": "Node.js crash course code",
+  "homepage": "https://github.com/ericstober/nodejs-crash-course-2024#readme",
+  "bugs": {
+    "url": "https://github.com/ericstober/nodejs-crash-course-2024/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericstober/nodejs-crash-course-2024.git"
+  },
+  "license": "MIT",
+  "author": "Eric Stober",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

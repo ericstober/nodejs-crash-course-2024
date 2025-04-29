@@ -1,1 +1,38 @@
 # nodejs-crash-course-2024
+
+---
+
+## Initialize Node.js project
+
+The command `npm init` initalizes a Node.js project, creating a package.json file.
+This file describes the project's dependencies, version, and other metadata.
+It prompts for project information during the initializtion process.
+`npm init -y` will skip the prompts.
+
+---
+
+## index.js
+
+The index.js file imports the generateRandomNumber and celciusToFahrenheit functions from the utils.js file using CommonJS imports.
+The two function are then run as console logs to view the output of the functions.
+This code is commented out.
+
+The index.js file now imports getPosts and getPostsLength from the postController.js file using ESModules imports.
+ESModules is the prefered way to import/export and typically what frameworks use.
+The two function are then run as console logs to view the output of the functions.
+
+---
+
+## utils.js
+
+The utils.js file contains the generateRandomNumber and celciusToFahrenheit functions.
+The functions are exported using CommonJS.
+
+---
+
+## postController.js
+
+The postController.js file contains a posts array with two post objects to use as sample data.
+This file also contains two simple functions to get all of the posts from the post objects array. This function is exported as default using ESModules.
+
+The second function getPostsLength gets the length of the posts array. This function is a regular export using ESModules.
