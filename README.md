@@ -18,7 +18,8 @@ It prompts for project information during the initializtion process.
 Scripts can be created in the package.json.
 For example:
 `"scripts": {"start": "node server.js"}`
-allows for the use of the `npm start` command to run the server.js file
+allows for the use of the `npm start` command to run the server.js file.
+Change the file name to run different files.
 
 ---
 
@@ -55,3 +56,9 @@ The second function getPostsLength gets the length of the posts array. This func
 Imports http module that is included in node.js.
 Creates a server using the http module.
 This file handles routes for the index.html and about.html files that are in the public folder.
+
+---
+
+## server2.js
+
+The server2.js file is an example of a router/api to GET and POST users.
