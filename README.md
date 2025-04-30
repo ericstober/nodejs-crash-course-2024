@@ -62,3 +62,10 @@ This file handles routes for the index.html and about.html files that are in the
 ## server2.js
 
 The server2.js file is an example of a router/api to GET and POST users.
+
+---
+
+## fsDemo.js
+
+The fsDemo.js file demonstrates the fs module. Which can read and write to and from text files.
+The test.txt file is used along with the fsDemo.js file.
