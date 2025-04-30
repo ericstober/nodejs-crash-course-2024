@@ -69,3 +69,9 @@ The server2.js file is an example of a router/api to GET and POST users.
 
 The fsDemo.js file demonstrates the fs module. Which can read and write to and from text files.
 The test.txt file is used along with the fsDemo.js file.
+
+---
+
+## pathDemo.js
+
+The pathDemo.js file demonstrates the path module. This module is used to work with file paths.
