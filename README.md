@@ -76,9 +76,18 @@ The test.txt file is used along with the fsDemo.js file.
 
 The pathDemo.js file demonstrates the path module. This module is used to work with file paths.
 
---
+---
 
 ## osDemo.js
 
 The osDemo.js file domonstrates the os module. This module can provide information regarding the system.
 Such as memory usage and availability, CPU information, user information, etc.
+
+---
+
+## urlDemo.js
+
+The urlDemo.js file demonstrates the url module. This module allows you to work with URLs in various ways.
+A URL string can be made into an object which contains various bits and information of the URL.
+A URL object can also be made into a URL string using .format().
+Search params can be captured using URLSearchParams().
