@@ -75,3 +75,10 @@ The test.txt file is used along with the fsDemo.js file.
 ## pathDemo.js
 
 The pathDemo.js file demonstrates the path module. This module is used to work with file paths.
+
+--
+
+## osDemo.js
+
+The osDemo.js file domonstrates the os module. This module can provide information regarding the system.
+Such as memory usage and availability, CPU information, user information, etc.
