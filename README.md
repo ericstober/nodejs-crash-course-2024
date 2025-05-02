@@ -13,6 +13,12 @@ It prompts for project information during the initializtion process.
 
 ---
 
+## .env
+
+PORT="port_number"
+
+---
+
 ## package.json
 
 Scripts can be created in the package.json.
@@ -91,3 +97,9 @@ The urlDemo.js file demonstrates the url module. This module allows you to work 
 A URL string can be made into an object which contains various bits and information of the URL.
 A URL object can also be made into a URL string using .format().
 Search params can be captured using URLSearchParams().
+
+---
+
+## cryptoDemo.js
+
+The cryptoDemo.js demonstrates the crypto module. This module can be used to encrypt and decrypt information.
