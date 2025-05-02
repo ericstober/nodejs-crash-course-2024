@@ -102,4 +102,11 @@ Search params can be captured using URLSearchParams().
 
 ## cryptoDemo.js
 
-The cryptoDemo.js demonstrates the crypto module. This module can be used to encrypt and decrypt information.
+The cryptoDemo.js file demonstrates the crypto module. This module can be used to encrypt and decrypt information.
+
+---
+
+## eventsDemo.js
+
+This eventsDemo.js file demonstrates the events module, more specifcally the EventEmitter.
+This can be used to create your own custom events and then handle those events.
