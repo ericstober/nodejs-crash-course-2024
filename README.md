@@ -110,3 +110,9 @@ The cryptoDemo.js file demonstrates the crypto module. This module can be used t
 
 This eventsDemo.js file demonstrates the events module, more specifcally the EventEmitter.
 This can be used to create your own custom events and then handle those events.
+
+---
+
+## processDemo.js
+
+The processDemo.js file demonstrates the process module which can be used to access system information.
